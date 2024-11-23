@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Export Game Job
     steps:
-      - name: checkout
+      - name: checkout #checkout
         uses: actions/checkout@v4
       - name: install wine
         id: wine_install
